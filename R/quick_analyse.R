@@ -55,8 +55,10 @@ quick_analyse <- function(data, response_variable = "y", analysis_mode = c("ligh
   message(paste("Analysis mode: ", mode))
 
   # Define variables and response
-  x <- setdiff(names(df), response_variable)
+  x <- setdiff(names(data), response_variable)
+  message(paste("x:", x))
   y <- response_variable
+  message(paste("y:", y))
 
   # Determine (or define) problem as binary class., multiclass, regression
   # TBC
