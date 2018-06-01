@@ -1,0 +1,10 @@
+Package: quickanalyser
+Title: Quickly Analyse Data Using h2o.ai
+Version: 0.0.0.9000
+Authors@R: person("Lewin", "Fox", email = "lewin.a.f@gmail.com", role = c("aut", "cre"))
+Description: Uses h2o.ai to run a series of machine learning models on an input dataset.
+Depends: R (>= 3.4.4)
+License: GNU GPL3.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
